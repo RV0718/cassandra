@@ -1,0 +1,17 @@
+spring:
+  data:
+    cassandra:
+      port: 9142
+      contact-points: localhost
+      keyspace-name: "testKeySpace"
+#  main:
+#    web-application-type: none
+
+test:
+  url: http://localhost
+
+
+
+
+
+

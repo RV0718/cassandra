@@ -1,0 +1,17 @@
+spring:
+  data:
+    cassandra:
+      port: 9042
+      contact-points: localhost
+      keyspace-name: "testKeySpace"
+      username:
+      password:
+      schema-action: NONE # to indicate whether we do want to create/drop of our schema during startup.
+      connect-timeout:
+      read-timeout:
+
+server:
+  port: 9090
+
+                 
+
